@@ -27,6 +27,7 @@ class Time{
         second = second % 60;
         hour = hour + min / 60;
         min = min % 60;
+    }
 };
 int main(){
     Time t1,t2,t3;
